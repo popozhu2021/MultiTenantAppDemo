@@ -6,3 +6,20 @@
 
 
    Registered Application (client) ID
+
+
+
+  Edit .git/config file under your repo directory
+
+Find url= entry under section [remote "origin"]
+
+$ git config –-global user.name NEWUSER
+$ git config user.name NEWUSER
+
+git remote set-url origin https://popozhu2021@github.com/popozhu2021/MultiTenantApp.git
+
+
+git remote add origin https://github.com/tzhuca/MultiTenantApp.git
+git branch -M main
+git push -u origin main
+
